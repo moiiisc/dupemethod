@@ -1,0 +1,30 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(255, 240, 23)
+Frame.Size = UDim2.new(0, 1800, 0, 1100)
+Frame.Active = true
+Frame.Draggable = false
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.Position = UDim2.new(0.270132512, 0, 0.190095842, 0)
+TextLabel.Size = UDim2.new(0, 473, 0, 338)
+TextLabel.Font = Enum.Font.PatrickHand
+TextLabel.Text = "HAPPY PARIL FOOLS PUTANG INA NYO !!"
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
